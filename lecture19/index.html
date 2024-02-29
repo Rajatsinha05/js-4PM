@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+
+    <style>
+
+        #box div img{
+            height: 200px;
+            width: 200px;
+        }
+
+        #box{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+        }
+
+
+        .title{
+            color: aquamarine ;
+        }
+
+        #t-error{
+          display: none;
+        }
+    </style>
+  </head>
+  <body>
+    <form id="form">
+      <input type="text" placeholder="title" id="title"  required/>
+      <br>
+      <p id="t-error">title must be at least 2 characters</p>
+
+      <input type="url" id="img" placeholder="img" required />
+      <br>
+      <input type="number" placeholder="price" id="price" required />
+      <br>
+      <input type="text" placeholder="password" id="password" required />
+      <br>
+      <input type="submit" />
+    </form>
+
+    <hr>
+
+    <div id="box"></div>
+  </body>
+  <script src="./index.js"></script>
+</html>
