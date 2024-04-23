@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": "0c32",
+      "username": "node",
+      "email": "node@gmail.com",
+      "password": "node"
+    },
+    {
+      "id": "ef99",
+      "username": "node",
+      "email": "node1@gmail.com",
+      "password": "node"
+    }
+  ],
+  "products": [
+    {
+      "id": "2681",
+      "title": "test",
+      "price": "45656",
+      "img": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIALYAwgMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAAIDBAYBBwj/xAA/EAACAQMCAwYDBQYFAwUAAAABAgMABBESIQUxQQYTIlFhcRSBkSMyobHwFUJSwdHhJDNicoIHFlNEkqKywv/EABoBAAIDAQEAAAAAAAAAAAAAAAIEAAEDBQb/xAAxEQACAQIEBAQFBAMBAAAAAAAAAQIDEQQSITEFE0FRFDJh8CJxgbHRI1KRoULh8TP/2gAMAwEAAhEDEQA/APEKvxHwVQq5GRoqmZ1FoKQ5lUU99kqHOZhnpU0v3Khm1sUOuafF/mA+VMpyHByKs3ZpVVzaZH8NCLWL7Yc92ovaPqs/+NU7NczqMb5zUQlGdlIMue6s/Lw0H4q3+CQeeKKcVYLaEDmBQbi5ItYVIO9EDRWqYJp6KTTAKv2FrJcyrGg3bON6kR2clFXZctrfvLdFCYZjz9K0FpH8Fw26vJACsXhQ9M0GtXmN2iRjMsjBAByBoh2yvUt4oOD2zbQL9sf4mpimkk2zmVHOdSMF1+xl766luZftGyM5xVU+lSIjSOEiUszEBQOZovY8IBBN45gxuEIyWrHK5M6TlGmgMoyfSrsFmJCNZKLyO259qMtHYcJcdxCk0mMnvPFih13eyzTGTIBO3hGMDyrTIo7mSquflWhNbSW9q50EJjrT5O0Do2qDDN0LDlQlxsWbcmodJb1qcxrRE5EW7y1L13ez3z6rl9Z6elViKeFpEVVw1psQNmuVKwqIjFS4SOUqVKrCI6mQnRUNS",
+      "category": "men"
+    },
+    {
+      "id": "c9c5",
+      "title": "test",
+      "price": "546",
+      "img": "https://images-cdn.ubuy.co.in/63e01ff71c49c075c057c9b3-shirts-men-korean-clothing-long-sleeve.jpg",
+      "category": "women"
+    }
+  ],
+  "cart": [
+    {
+      "id": "c9c5",
+      "title": "test",
+      "price": "546",
+      "img": "https://images-cdn.ubuy.co.in/63e01ff71c49c075c057c9b3-shirts-men-korean-clothing-long-sleeve.jpg",
+      "category": "women",
+      "qty": 2
+    }
+  ]
+}

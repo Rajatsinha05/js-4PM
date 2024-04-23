@@ -33,10 +33,22 @@ const handleSubmit = (e) => {
     let price = document.getElementById('price').value;
     let password = document.getElementById("password").value;
 
-    if (title.length < 2) {
 
-        document.getElementById("t-error").style.display = "block"
-        return
+
+let regexTitle="/^[0-9A-Za-z]{6,16}$/"
+
+    // if (title.length < 2) {
+
+    //     document.getElementById("t-error").style.display = "block"
+    //     return
+    // }
+
+    if(!(regexTitle.matchAll(title))){
+
+        alert("Please enter a valid title")
+
+
+        return 
     }
 
     if (price < 0) {
